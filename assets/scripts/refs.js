@@ -1,0 +1,1 @@
+(function(){var b=/\d+/gmi,c; try{window.localStorage,c=!0}catch(f){c=!1}var a=window.location.hash.slice(1),d=(b=/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}/gmi.test(a)||b.test(a)||0<parseInt(a,10))?a:''; if(c){var e; (e=localStorage.getItem('grid-referrer'))?d=e:b&&localStorage.setItem('grid-referrer',a)}window.ref=d})();
